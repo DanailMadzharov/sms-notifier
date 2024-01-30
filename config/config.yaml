@@ -11,5 +11,5 @@ kafka:
   retention-hours: 36
   recovery:
     topic: sms.recovery
-    group-id: smss
+    group-id: sumup-sms-notifier-group-id
     retention-hours: 36
