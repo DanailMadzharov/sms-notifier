@@ -1,0 +1,15 @@
+version: 1.0.0
+
+kafka:
+  bootstrap-servers:
+    - localhost:9093
+    - localhost:9094
+    - localhost:9095
+  topic: sms
+  group-id: smss
+  min-bytes: 200
+  retention-hours: 36
+  recovery:
+    topic: sms.recovery
+    group-id: smss
+    retention-hours: 36
